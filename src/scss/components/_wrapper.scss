@@ -1,0 +1,10 @@
+.wrapper {
+    padding: $padding;
+    color: $cWhite;
+    
+   width: calc(100vw - 300px);
+    h1 {
+        font-weight: bold;
+        font-size: 2em;
+    }
+}
