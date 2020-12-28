@@ -4,7 +4,7 @@ services:
     image: nginx
     volumes:
       - ./web/dist:/var/www
-      - ./nginx_default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx_default.conf:/etc/nginx/conf.d/default.conf
     ports:
       - 8080:80
     restart: always

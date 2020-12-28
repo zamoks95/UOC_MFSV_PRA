@@ -1,5 +1,4 @@
 import Matter from 'matter-js';
-import boxPath from '../img/box.svg';
 export const simulation5 = function() {
   var Engine = Matter.Engine,
     Render = Matter.Render,
